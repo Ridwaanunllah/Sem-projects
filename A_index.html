@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="About_style.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  .header{
+    position:sticky;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 1.3rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: (0, 0, 0, .1);
+    backdrop-filter: blur(100px);
+    z-index: 100;
+  }
+  
+  .logo{
+    font-size:2.5rem;
+    cursor: pointer;
+  }
+ 
+.logo span{
+    color: #e91e63;
+    text-decoration:underline;
+}
+  
+  button{
+    font-family:sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+
+  .bim a{
+  color: #ffffff;
+  text-decoration: none;
+}
+  
+  .bim{
+    background-color: #e91e63;
+  }
+  .bim:hover {
+    background: rgb(35, 119, 125);
+  }
+
+body{
+    background-image: url(figure.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 50px;
+}
+
+.make{
+    width:550px;
+    background:transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border-radius: 12px;
+    padding:30px 40px
+}
+
+p{
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 400;
+    color: black; 
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">Dream<span>Bank</span></h1>
+    
+        <button class="bim"><a href="P_index.html">Home</a></button>
+       </header>
+     <main>
+       <section class="make">
+        <p>
+            DreamBank is proud to have a CEO like Ridwaan leading the team.
+            With years of experience <br>in the finance industry and passion for helping others achieve
+            their fianacial goals, Ridwaan is dedicated to providing the best possible investment options for 
+            our clients.<br> Under his leadership, DreamBank continues to strive <br>for exellence and innovation in the 
+            world of <br> <em>banking</em> and <em>finance.</em>
+        </p>
+      </section>
+    </main>
+    
+</body>
+</html>
